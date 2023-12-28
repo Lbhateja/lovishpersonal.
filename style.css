@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Dark Gray */
+}
+
+header {
+    background-color: rgba(255, 192, 203, 0.5); /* Light Pink with Opacity */
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+nav {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+	background-color: rgba(255, 255, 255, 0.5); 
+}
+/* Your existing styles for memorable moments page */
+
+.image-slider {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.slide {
+    display: none;
+    animation: slideAnimation 12s infinite;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+@keyframes slideAnimation {
+    0% { left: 0; }
+    20% { left: 0; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffc0cb; /* Light Pink on hover */
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.5); /* Light Gray with Opacity */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+footer {
+    background-color: rgba(255, 192, 203, 0.5); /* Light Pink with Opacity */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
