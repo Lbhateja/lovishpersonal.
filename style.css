@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('image.jpg'); /* Add the path to your background image */
+    background-image: url('image.png'); /* Add the path to your background image */
     background-size: cover;
     background-position: center;
     color: #333; /* Dark Gray */
